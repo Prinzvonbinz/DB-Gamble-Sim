@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a1f3d;
+    color: #fff;
+    text-align: center;
+}
+
+.hidden { display: none; }
+
+.screen { padding: 20px; }
+
+input, button { padding: 10px; margin: 10px; font-size: 16px; }
+
+#slotMachine {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.slot {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: #123;
+    border-radius: 8px;
+}
+
+#trainList li {
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#trainList li:hover { color: #0ff; }
+
+button {
+    cursor: pointer;
+    background-color: #1a2b4d;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+button:hover { background-color: #2b3d6f; }
