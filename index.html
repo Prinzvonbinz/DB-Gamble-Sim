@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DB Gamble Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="mainGame" class="screen">
+    <h1>DB Gamble Simulator</h1>
+    <div id="coinsDisplay">Münzen: 0</div>
+    <div id="countryDisplay">Aktuelles Land: -</div>
+
+    <div id="slotMachine">
+        <div class="slot" id="slot1">❓</div>
+        <div class="slot" id="slot2">❓</div>
+        <div class="slot" id="slot3">❓</div>
+    </div>
+    <button id="spinBtn">Ticket ziehen (3 Münzen)</button>
+    <div id="ticketStatus">Tickets: 0</div>
+
+    <h2>Zufällige Züge</h2>
+    <ul id="trainList"></ul>
+
+    <div id="guessSection" class="hidden">
+        <h3>Rate die Verspätung (0-30 Minuten)</h3>
+        <input type="number" id="delayGuess" min="0">
+        <button id="submitGuess">Raten</button>
+    </div>
+
+    <button id="travelBtn" class="hidden">Reise mit Ticket</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
